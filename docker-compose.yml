@@ -33,7 +33,7 @@ services:
       redis:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      - "3003:3003"
     environment:
       - REDIS_HOST=redis
     healthcheck:
