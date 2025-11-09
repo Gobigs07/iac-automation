@@ -5,18 +5,6 @@ Automate local setup of:
   Nginx
   Sample Node.js App
 
-All services start together using Docker Compose.
-
-infra-automation/
-├── app/
-│   ├── app.js
-│   └── Dockerfile
-├── nginx/
-│   └── default.conf
-├── docker-compose.yml
-├── setup.sh
-└── README.md
-
 ⚙️ Prerequisites
 
 Docker Desktop installed
